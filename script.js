@@ -18,7 +18,7 @@ document.getElementById("jobApplicationForm").addEventListener("submit", functio
                      "?subject=" + encodeURIComponent(subject) +
                      "&body=" + encodeURIComponent(body);
     
-    // Trigger the link to open default email client
+    
     window.location.href = mailtoLink;
   });
   
